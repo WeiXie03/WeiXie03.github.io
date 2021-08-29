@@ -1,11 +1,12 @@
 # Hugo Simple Theme
 
+Fork of [https://github.com/Xzya/simple-hugo-theme](https://github.com/Xzya/simple-hugo-theme)
 This is a very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/).
 
 ## Screenshots
 
-![preview](https://raw.githubusercontent.com/Xzya/simple-hugo-theme/master/images/screenshot.png)
-![preview](https://raw.githubusercontent.com/Xzya/simple-hugo-theme/master/images/screenshot2.png)
+![preview](https://raw.githubusercontent.com/ihasdapie/bettermotherfuckinghugowebsite/master/images/screenshot.png)
+![preview](https://raw.githubusercontent.com/ihasdapie/bettermotherfuckinghugowebsite/master/images/screenshot2.png)
 
 ## Configuration
 
