@@ -7,11 +7,19 @@ body {
     padding: 0 10px;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     line-height: 1.2
 }
+
+h2,
+h3 {
+    line-height: 1.1
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 
 div.header h1 {
     padding-top: 0;
