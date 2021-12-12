@@ -1,0 +1,25 @@
+
+
+
+<div >
+    <h2>Table of Contents <button style="font-size: large" id="toc_button" onclick="toggleTOC()"> ▼ </button> </h2>
+    <div id="toc">
+    {{ .Page.TableOfContents }}
+    </div>
+    <script>
+        function toggleTOC() {
+            var x = document.getElementById("toc");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            var y = document.getElementById("toc_button");
+            y.textContent = y.textContent === " ▼ " ? " ▲ " : " ▼ "; 
+        }
+    </script>
+</div>
+
+
+
+
