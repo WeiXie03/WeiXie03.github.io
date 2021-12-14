@@ -73,8 +73,16 @@ button:hover {
     background: #f1f1f1;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-
+td, th {
+  border: 1px solid #444;
+  padding: 0.5rem;
+  text-align: left;
+}
 
 
 
