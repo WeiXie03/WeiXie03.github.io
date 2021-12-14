@@ -1,9 +1,9 @@
-<video src="{{ .Get "src" }}" width=100% controls autoplay loop preload="auto">
-    <source src="{{ .Get "src" }}" type="video/webm">
-    <p>This browser does not support videos. Please download the video to view it: <a href="{{ .Get "src" }}">Download Video</a>.</p>
-</video>
-
-
+<div>
+    <video src="{{ .Get "src" }}" width=100% controls loop preload="auto">
+        <source src="{{ .Get "src" }}" type="video/webm">
+    </video>
+    <a href="{{ .Get "src" }}">Download Video</a>.</p>
+</div>
 
 
 

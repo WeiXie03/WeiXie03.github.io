@@ -1,6 +1,10 @@
-body {
+* {
+    box-sizing: border-box;
+}
+
+section {
     margin: 40px auto;
-    max-width: 650px;
+    max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
     color: #444;
@@ -39,8 +43,7 @@ div.header h1 {
 }
 
 ul.pagination {
-    list-style-type: none;
-    text-align: center;
+    list-style-type: none; text-align: center;
     padding: 0;
 }
 
@@ -83,6 +86,29 @@ td, th {
   padding: 0.5rem;
   text-align: left;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    #back_to_top {
+        background-color: #f1f1f1;
+    }
+
+}
+#back_to_top {
+    position: fixed;
+    border-radius: 5px;
+    bottom: 0.5em;
+    right: 0em;
+    width:100px;
+}
+
+#back_to_top:hover {
+    background: #f1f1f1;
+}
+
+
+
 
 
 

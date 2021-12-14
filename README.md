@@ -14,7 +14,7 @@ However it contains a few modern niceties like non-ugly tables, ability to embed
 - Embed pdf with `{{< pdf src="pdf_file.pdf">}}`.
 - Insert a table of contents with `{{< toc>}}`.
 - Latex support with `katex: true` in header.
-
+- Add a 'back to top' button with `back_to_top: true` in header.
 
 ## Configuration
 
