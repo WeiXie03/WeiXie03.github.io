@@ -8,5 +8,5 @@ features = ["small page size", "fast", "tags", "google analytics", "pagination"]
 min_version = "0.41"
 
 [author]
-  name = "Mihail Cristian Dumitru"
-  homepage = "https://github.com/Xzya"
+  name = "Brian Chen"
+  homepage = "https://github.com/ihasdapie"
