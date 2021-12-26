@@ -107,7 +107,12 @@ td, th {
     background: #f1f1f1;
 }
 
-
+blockquote {
+  background: #f1f1f1;
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 8px;
+}
 
 
 
