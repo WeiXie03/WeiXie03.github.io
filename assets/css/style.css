@@ -29,6 +29,9 @@ body {
 }
 
 
+
+
+
 div.header h1 {
     padding-top: 0;
     padding-bottom: 8px;
@@ -87,7 +90,7 @@ td, th {
   text-align: left;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
     #back_to_top {
         visibility: visible !important;
     }
@@ -103,6 +106,8 @@ td, th {
     right: 0;
     padding: 20px;
     line-height: 1.1em;
+    max-width: 325px;
+    margin: auto;
 }
 
 
@@ -119,6 +124,19 @@ blockquote {
   border-left: 4px solid #ccc;
   padding-left: 8px;
 }
+
+
+code:not([class*="language-"]) {
+    border-radius: 0.25rem;
+    padding: 0.1rem;
+    background-color: #f2f2f2;
+    color: #399EE6;
+}
+
+
+
+
+
 
 
 
