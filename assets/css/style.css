@@ -6,7 +6,7 @@ body {
     margin: 40px auto;
     max-width: 800px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 16px;
     color: #444;
     padding: 0 10px;
 }
@@ -36,7 +36,7 @@ div.header h1 {
     padding-top: 0;
     padding-bottom: 8px;
     margin-bottom: 24px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     border-bottom: 1px solid;
 }
@@ -98,7 +98,11 @@ td, th {
     #toc {
         display: none;
     }
+
 }
+ul, ol, li {
+    padding-left: 0.5 em;
+    }
 
 #toc {
     position: fixed;
@@ -129,8 +133,8 @@ blockquote {
 code:not([class*="language-"]) {
     border-radius: 0.25rem;
     padding: 0.1rem;
-    background-color: #f2f2f2;
-    color: #399EE6;
+    background-color: #f1f1f1;
+    /* color: #399EE6; */
 }
 
 
