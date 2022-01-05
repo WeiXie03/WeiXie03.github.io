@@ -1,7 +1,8 @@
 # Hugo Simple Theme
 This is a very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/).
+For an example of it in action, see [chenbrian.ca](https://chenbrian.ca)
 
-However it contains a few modern niceties like non-ugly tables, ability to embed pdfs and videos, and a few other things. It contains *extremely minimal* css and js files; i.e. just enough so that you can, say, toggle a long Table of Contents.
+However it contains a few modern niceties like non-ugly tables, ability to embed pdfs and videos, and a few other things. It contains *extremely minimal* css; i.e. just enough so that we get some shading behind monospace text, etc.
 
 
 ## Screenshots
