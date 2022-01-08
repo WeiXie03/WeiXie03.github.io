@@ -19,7 +19,8 @@ However it contains a few modern niceties like non-ugly tables, ability to embed
 
 ## Configuration
 
-Check [`github.com/ihasdapie/chenbrian.ca/`] for a working example.
+Check [github.com/ihasdapie/chenbrian.ca/](github.com/ihasdapie/chenbrian.ca/) for a working and reasonably documented example.
+
 
 
 ## License
