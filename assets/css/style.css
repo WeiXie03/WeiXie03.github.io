@@ -100,12 +100,13 @@ td, th {
     }
 
 }
+
 #toc {
     position: fixed;
     top: 50px;
     right: 0;
     padding: 20px;
-    line-height: 1.1em;
+    line-height: 1.4em;
     max-width: 325px;
     margin: auto;
 }

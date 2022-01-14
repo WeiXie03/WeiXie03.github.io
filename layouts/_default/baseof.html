@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
-<a id="top"></a>
 <body>
     {{- partial "header.html" . -}}
     <div id="content">
         {{ if .Params.back_to_top}}
             <aside id="back_to_top">
-            <a href="#top">Back to top</a>
+            <a href="#">Back to top</a>
             </aside>
         {{ end }}
         <section>
