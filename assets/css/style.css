@@ -90,7 +90,7 @@ td, th {
   text-align: left;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
     #back_to_top {
         visibility: visible !important;
     }
@@ -103,11 +103,11 @@ td, th {
 
 #toc {
     position: fixed;
-    top: 50px;
+    top: 40px;
     right: 0;
-    padding: 20px;
+    padding-right: 50px;
     line-height: 1.4em;
-    max-width: 325px;
+    max-width: 400px;
     margin: auto;
 }
 
