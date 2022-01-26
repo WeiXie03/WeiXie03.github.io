@@ -8,27 +8,15 @@ body {
     line-height: 1.6;
     font-size: 16px;
     color: #444;
+    font-family: sans-serif;
     padding: 0 10px;
 }
 
-h1 {
+h1, h2, h3 {
     line-height: 1.2;
-    font-family: Arial, sans-serif;
-}
-
-h2,
-h3 {
-    font-family: Arial, sans-serif;
-    line-height: 1.1;
+    font-family: sans-serif;
     color: #444;
 }
-
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-
 
 
 
@@ -90,7 +78,7 @@ td, th {
   text-align: left;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1450px) {
     #back_to_top {
         visibility: visible !important;
     }
@@ -101,11 +89,12 @@ td, th {
 
 }
 
+
 #toc {
     position: fixed;
     top: 40px;
     right: 0;
-    padding-right: 50px;
+    padding-right: 80px;
     line-height: 1.4em;
     max-width: 400px;
     margin: auto;
@@ -116,7 +105,7 @@ td, th {
     position: fixed;
     top: 10px;
     right: 10px;
-    width:100px;
+    width: 100px;
     visibility: hidden;
 }
 
@@ -146,7 +135,14 @@ ul, ol, li {
     }
 
 
+/* Put brackets around footnotes */
+a.footnote-ref::before {
+    content: '[';
+}
 
+a.footnote-ref::after {
+    content: ']';
+}
 
 
 

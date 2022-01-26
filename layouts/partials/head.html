@@ -12,6 +12,17 @@
     {{ $styles := resources.Get "css/style.css" | minify -}}
     <style>
         {{- $styles.Content | safeCSS -}}
+
+        {{ if .Params.toc }} 
+            body {
+                margin-left: 250px;  /* Offset content to left if TOC is enabled */
+            }
+        {{ end }}
+
+
+
+
+
     </style>
 
 
