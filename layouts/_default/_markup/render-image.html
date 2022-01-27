@@ -1,0 +1,5 @@
+<!-- layouts/_default/_markup/render-image.html -->
+<!-- Source: https://nickmchardy.com/2020/05/adding-lazy-loading-for-images-in-hugo-static-site-generator.html -->
+
+ <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+
