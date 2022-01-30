@@ -78,6 +78,8 @@ td, th {
   text-align: left;
 }
 
+
+/* For smaller screens */
 @media only screen and (max-width: 1450px) {
     #back_to_top {
         visibility: visible !important;
@@ -87,6 +89,25 @@ td, th {
         display: none;
     }
 }
+
+
+/* For screen size < max body size */
+
+@media only screen and (max-width: 800px) {
+    /* Wrap math equations */
+    .katex-display > .katex {
+        display: inline-block;
+        white-space: nowrap;
+        max-width: 100%;
+        overflow: auto;
+        min-height: fit-content;
+        overflow-y: hidden; 
+        /* and let them breathe a little */
+        line-height: 1.5em;
+    }
+}
+
+
 
 
 #toc {
@@ -141,19 +162,6 @@ a.footnote-ref::before {
 
 a.footnote-ref::after {
     content: ']';
-}
-
-
-/* Wrap math equations */
-.katex-display > .katex {
-  display: inline-block;
-  white-space: nowrap;
-  max-width: 100%;
-  overflow-x: scroll;
-  text-align: initial;
-  
-  /* and let them breathe a little */
-  line-height: 1.5em;
 }
 
 
