@@ -144,6 +144,16 @@ a.footnote-ref::after {
 }
 
 
-
+/* Wrap math equations */
+.katex-display > .katex {
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow-x: scroll;
+  text-align: initial;
+  
+  /* and let them breathe a little */
+  line-height: 1.5em;
+}
 
 
