@@ -1,5 +1,5 @@
-<object data="{{.Page.Site.BaseURL}}/{{ .Get "src" }}#toolbar=0&navpanes=0" type="application/pdf" width=100% height="700px">
-    <embed src="{{.Page.Site.BaseURL}}/{{ .Get "src" }}">
+<object data="{{ .Get "src" }}#toolbar=0&navpanes=0" type="application/pdf" width=100% height="700px">
+    <embed src="{{ .Get "src" }}">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ .Get "src" }}">Download PDF</a>.</p>
     </object>
 </object>

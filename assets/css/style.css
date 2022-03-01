@@ -91,23 +91,17 @@ td, th {
 }
 
 
-/* For screen size < max body size */
-
-@media only screen and (max-width: 800px) {
-    /* Wrap math equations */
-    .katex-display > .katex {
-        display: inline-block;
-        white-space: nowrap;
-        max-width: 100%;
-        overflow: auto;
-        min-height: fit-content;
-        overflow-y: hidden; 
-        /* and let them breathe a little */
-        line-height: 1.5em;
-    }
+/* Wrap math equations */
+.katex-display > .katex {
+    overflow: auto hidden;
 }
 
-
+/* let multiline math breathe a little */
+.katex .katex-html >.newline {
+    display: block;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+}
 
 
 #toc {
@@ -145,9 +139,9 @@ code:not([class*="language-"]) {
 
 
 
-p + ul, p + ol {
+p + ul, p + ol, ul + ol, ol + ul {
     /* remove spacing preceding lists */
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 ul, ol, li {
@@ -163,5 +157,25 @@ a.footnote-ref::before {
 a.footnote-ref::after {
     content: ']';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
