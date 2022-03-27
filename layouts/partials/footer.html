@@ -19,8 +19,8 @@
         {{- .Site.Copyright -}}
     </div>
     {{ end }}
-    <div id="wcb" class="carbonbadge"></div>
 
-    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+    {{ if .Params.website_carbon }}{{ partial "website_carbon.html" .}}{{ end }}
+
 </div>
 {{ end }}
