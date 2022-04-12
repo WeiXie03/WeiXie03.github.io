@@ -70,6 +70,8 @@ button:hover {
 table {
   border-collapse: collapse;
   width: 100%;
+  display: block;
+  overflow-x: auto;
 }
 
 td, th {
@@ -89,6 +91,7 @@ td, th {
         display: none;
     }
 }
+
 
 
 /* Wrap math equations */
@@ -136,6 +139,18 @@ code:not([class*="language-"]) {
     background-color: #f1f1f1;
     /* color: #399EE6; */
 }
+
+code {
+    /* TODO: make long ones scroll horizontally*/
+    width: 100px;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+
+
+
 
 
 
