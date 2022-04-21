@@ -136,8 +136,7 @@ blockquote {
 code:not([class*="language-"]) {
     border-radius: 0.25rem;
     padding: 0.1rem;
-    background-color: #f1f1f1;
-    /* color: #399EE6; */
+    background-color: #f8f8f8; /* Make this match the pygments emacs theme */
 }
 
 code {
