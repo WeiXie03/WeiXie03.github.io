@@ -111,9 +111,9 @@ td, th {
     position: fixed;
     top: 40px;
     right: 0;
-    padding-right: 80px;
+    padding-right: 10%;
     line-height: 1.4em;
-    max-width: 400px;
+    max-width: 30%;
     margin: auto;
 }
 
@@ -137,6 +137,7 @@ code:not([class*="language-"]) {
     border-radius: 0.25rem;
     padding: 0.1rem;
     background-color: #f8f8f8; /* Make this match the pygments emacs theme */
+    color: #863109;
 }
 
 code {
