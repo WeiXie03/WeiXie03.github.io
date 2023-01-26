@@ -141,11 +141,16 @@ code:not([class*="language-"]) {
 }
 
 code {
-    /* TODO: make long ones scroll horizontally*/
     width: 100px;
     overflow: auto;
     word-wrap: normal;
     white-space: pre;
+
+    /* Fix text sizing issues on safari ios*/
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 
