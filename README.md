@@ -1,5 +1,5 @@
 # Hugo Simple Theme
-Welcome to my personal website! I use a very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/) and enhanced by the genius Brian Chen. You can check out his own website at [chenbrian.ca](https://chenbrian.ca).
+Welcome to my personal website! I use a very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/) and enhanced by the genius [Brian Chen](https://chenbrian.ca).
 
 
 ## Features
